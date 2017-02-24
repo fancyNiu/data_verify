@@ -1,0 +1,41 @@
+{
+  "sheet1":[
+    {
+      "table":"tableName",
+      "sql":"select *",
+      "selectType":"1",
+      "data":[{
+        "source":"姓名",
+        "target":"XM",
+        "verifyType":"map"
+      },
+        {
+          "source":"性别",
+          "target":"XB",
+          "verifyType":"mapAndConvert"
+        }
+      ]
+    },
+    {
+      "table":"tableName",
+      "sql":"select *",
+      "selectType":"n",
+      "data":[{
+        "source":"姓名",
+        "target":"XM",
+        "verifyType":"map"
+      },
+        {
+          "source":"性别",
+          "target":"XB",
+          "verifyType":"map"
+        },
+        {
+          "source":"性别",
+          "target":"XB",
+          "verifyType":"mapAndConvert"
+        }
+      ]
+    }
+  ]
+}
